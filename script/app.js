@@ -52,7 +52,7 @@ const assignData = (finalResponse) => {
     errorMessage.innerHTML = "";
     temperature.innerHTML = `${finalResponse.temp}°C`;
     maxTemp.innerHTML = `Max Temperature: <br> ${finalResponse.max_temp}°C`;
-    minTemp.innerHTML = `Max Temperature: <br> ${finalResponse.min_temp}°C`;
+    minTemp.innerHTML = `Min Temperature: <br> ${finalResponse.min_temp}°C`;
     humidity.innerHTML = `Humidity: <br> ${finalResponse.humidity} g.m-3`;
     sunrise.innerHTML = `Sunrise: <br> ${sunriseDate}`;
     sunset.innerHTML = `Sunset: <br> ${sunsetDate}`;
