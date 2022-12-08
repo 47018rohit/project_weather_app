@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+}
+#city{
+    color: white;
+}
+.btn{
+    background-color: purple;
+    padding-left: 2%; padding-right: 2%;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1597386034908-73a376eb9485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.btn:hover{
+    background-color: rgb(239, 43, 239);
+}
+h1>span{
+    color: purple;
+}
+
+#city, .btn, .card{
+    background-color: rgba(0, 0, 0, 0.313);
+    backdrop-filter: blur(5px);
+}
+a{
+    text-decoration: none;
+    color: rgb(252, 241, 155);
+}
+.credit{
+    margin-top: 9rem;
+}
